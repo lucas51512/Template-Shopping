@@ -16,6 +16,7 @@
 }
 
 #previsaoTitulo{
+    font-size: 175%;
     font-family: "Avenir LT Std";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
@@ -30,7 +31,7 @@
     z-index: 73;
 }
 
-#hora{
+#timecode{
   font-size: 550%;
   font-family: "Avenir LT Std";
   color: rgb(255, 255, 255);
@@ -40,13 +41,13 @@
   -webkit-transform: matrix( 0.47507382799645,0,0,0.47527457446713,0,0);
   -ms-transform: matrix( 0.47507382799645,0,0,0.47527457446713,0,0);
   position: fixed;
-  left: 55%;
-  top: -6.5% !important;
+  left: 50%;
+  top: 3.5% ;
 }
 
 #hoje{
   position: fixed;
-  right: 48%;
+  right: 45%;
   font-size: 330%;
   top: 16%;
 }
@@ -61,30 +62,42 @@
 }
 
 #maxima{
-  position: fixed;
-  right: 33%;
+  position: absolute;
+  right: 26%;
+  bottom: 52%;
+}
+
+.maxima1{
+  position: absolute;
+  right: 26%;
   bottom: 52%;
 }
 
 #minima{
-  position: fixed;
-  right: 34%;
+  position: absolute;
+  right: 27%;
+  bottom: 41%;
+}
+
+.minima1{
+  position: absolute;
+  right: 27%;
   bottom: 41%;
 }
 
 #nuvem-chuva{
   position: fixed;
   left: 6%;
-  width: 22%;
+  width: 24%;
   height: 44%;
   top: 18%;
   border-right: 5px solid;
   border-color: white;
-  padding-right: 125px;
+  padding-right: 85px;
 
 }
 
-#sol{
+.sol{
   position: absolute;
   top: 18%;
   left: 52%;
@@ -164,6 +177,69 @@
 }
 
 
-#bottomP12{
+#bottomP5{
   left: 6%;
+}
+
+
+@media (min-width:1920px) and (min-height:1080px) {
+  #previsaoTitulo{
+    font-size: 250%;
+  }
+
+  #timecode{
+    font-size: 660%;
+    top: 4%;
+    left: 70%
+  }
+  #marca{
+    top: 3%;
+  }
+  #hoje{
+    right: 50%;
+    font-size: 450%;
+  }
+  #maxima{
+    right: 37%;
+    font-size: 400%;
+  }
+  #minima{
+  right: 38%;
+  font-size: 400%;
+  }
+  .divBottom1{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 122.5px;
+    padding-bottom: 122.5px
+  }
+  .mainBottom1{
+    font-size: 145%;
+  }
+  .bottomP1{
+    left:18%;
+  }
+  .bottomP2{
+    left: 43%;
+    font-size: 140%;
+  }
+  .bottomP3{
+    left: 15%;
+  }
+  .bottomP4{
+  left: 17%;
+  }
+  #bottomP5{
+  left: 12%;
+  }
+  .bonus{
+    left: 21% !important;
+  }
+
+  .sol{
+    top: 7%;
+    left: 34%;
+    width: 100px;
+    height: 100px;
+  }
 }
