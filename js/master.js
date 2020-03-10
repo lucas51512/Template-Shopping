@@ -78,10 +78,10 @@ var clock = document.getElementById('timecode');
 
       document.getElementById("maxima").innerHTML = doc.childNodes[0].children[3].children[2].innerHTML;
       document.getElementById("minima").innerHTML = doc.childNodes[0].children[3].children[3].innerHTML;
-      document.getElementById("temp2_max").innerHTML = doc.childNodes[0].children[4].children[2].innerHTML;
-      document.getElementById("temp2_min").innerHTML = doc.childNodes[0].children[4].children[3].innerHTML;
-      document.getElementById("temp3_max").innerHTML = doc.childNodes[0].children[5].children[2].innerHTML;
-      document.getElementById("temp3_min").innerHTML = doc.childNodes[0].children[5].children[3].innerHTML;
+    //  document.getElementById("temp2_max").innerHTML = doc.childNodes[0].children[4].children[2].innerHTML;
+    //  document.getElementById("temp2_min").innerHTML = doc.childNodes[0].children[4].children[3].innerHTML;
+    //  document.getElementById("temp3_max").innerHTML = doc.childNodes[0].children[5].children[2].innerHTML;
+    //  document.getElementById("temp3_min").innerHTML = doc.childNodes[0].children[5].children[3].innerHTML;
     }
 
   }

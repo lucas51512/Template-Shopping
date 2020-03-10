@@ -1,4 +1,4 @@
-#imgBack{
+#imgBack {
   position: fixed;
   display: table;
   top: 0vh;
@@ -9,95 +9,105 @@
   z-index: -1;
 }
 
-.texto{
+.texto {
   color: white;
   font-family: Avenir LT Std;
-
 }
 
-#previsaoTitulo{
-    font-size: 175%;
-    font-family: "Avenir LT Std";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-shadow: 0px 12px 40px rgba(0, 0, 0, 0.55);
-    -moz-transform: matrix( 1.13872268007654,0,0,1.14510782188795,0,0);
-    -webkit-transform: matrix( 1.13872268007654,0,0,1.14510782188795,0,0);
-    -ms-transform: matrix( 1.13872268007654,0,0,1.14510782188795,0,0);
-    position: fixed;
-    left: 55.74px;
-    top: 1.5%;
-    z-index: 73;
+#previsaoTitulo {
+  font-size: 175%;
+  font-family: "Avenir LT Std";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-shadow: 0px 12px 40px rgba(0, 0, 0, 0.55);
+  -moz-transform: matrix(1.13872268007654, 0, 0, 1.14510782188795, 0, 0);
+  -webkit-transform: matrix(1.13872268007654, 0, 0, 1.14510782188795, 0, 0);
+  -ms-transform: matrix(1.13872268007654, 0, 0, 1.14510782188795, 0, 0);
+  position: fixed;
+  left: 55.74px;
+  top: 1.5%;
+  z-index: 73;
 }
 
-#timecode{
+#timecode {
   font-size: 550%;
   font-family: "Avenir LT Std";
   color: rgb(255, 255, 255);
   line-height: 0.467;
   text-align: center;
-  -moz-transform: matrix( 0.47507382799645,0,0,0.47527457446713,0,0);
-  -webkit-transform: matrix( 0.47507382799645,0,0,0.47527457446713,0,0);
-  -ms-transform: matrix( 0.47507382799645,0,0,0.47527457446713,0,0);
+  -moz-transform: matrix(0.47507382799645, 0, 0, 0.47527457446713, 0, 0);
+  -webkit-transform: matrix(0.47507382799645, 0, 0, 0.47527457446713, 0, 0);
+  -ms-transform: matrix(0.47507382799645, 0, 0, 0.47527457446713, 0, 0);
   position: fixed;
   left: 50%;
-  top: 3.5% ;
+  top: 3.5%;
 }
 
-#hoje{
+#hoje {
   position: fixed;
   right: 45%;
   font-size: 330%;
   top: 16%;
 }
 
-#marca{
+#marca {
   position: fixed;
   right: 0% !important;
 }
 
-.temp{
+.temp {
   font-size: 300%;
 }
 
-#maxima{
+#c {
+  position: absolute;
+  right: 20%;
+  top: 27%;
+}
+
+#d {
+  position: absolute;
+  right: 20%;
+  top: 38%;
+}
+
+#maxima {
   position: absolute;
   right: 26%;
   bottom: 52%;
 }
 
-.maxima1{
+#maxima1 {
   position: absolute;
-  right: 26%;
+  right: 42%;
   bottom: 52%;
 }
 
-#minima{
+#minima {
   position: absolute;
-  right: 27%;
+  right: 26%;
   bottom: 41%;
 }
 
-.minima1{
+#minima1 {
   position: absolute;
-  right: 27%;
+  right: 43%;
   bottom: 41%;
 }
 
-#nuvem-chuva{
+#nuvem-chuva {
   position: fixed;
   left: 6%;
-  width: 24%;
-  height: 44%;
-  top: 18%;
+  width: 23%;
+  height: 35%;
+  top: 20%;
   border-right: 5px solid;
   border-color: white;
   padding-right: 85px;
-
 }
 
-.sol{
+.sol {
   position: absolute;
   top: 18%;
   left: 52%;
@@ -105,7 +115,7 @@
   height: 50px;
 }
 
-.divBottom1{
+.divBottom1 {
   position: fixed;
   border: 2px solid;
   border-color: #47230a;
@@ -115,36 +125,36 @@
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 85px;
-  padding-bottom:85px;
+  padding-bottom: 85px;
   top: 71.5%;
   border-radius: 35px;
 }
 
-#box-1{
+#box-1 {
   left: 2%;
 }
 
-#box-2{
+#box-2 {
   left: 18.6%;
 }
 
-#box-3{
+#box-3 {
   left: 35.2%;
 }
 
-#box-4{
+#box-4 {
   left: 51.8%;
 }
 
-#box-5{
+#box-5 {
   left: 68.4%;
 }
 
-#box-6{
+#box-6 {
   left: 85%;
 }
 
-.mainBottom1{
+.mainBottom1 {
   position: absolute;
   border-top: solid 1px;
   border-color: white;
@@ -153,10 +163,10 @@
   font-size: 110%;
 }
 
-.mainBottom2{
+.mainBottom2 {
   position: absolute;
   color: white;
-  top:60%;
+  top: 60%;
 }
 
 .bottomP1 {
@@ -167,76 +177,113 @@
   left: 42%;
 }
 
-.bottomP3{
+.bottomP3 {
   left: 13%;
 }
 
-
-.bottomP4{
+.bottomP4 {
   left: 15%;
 }
 
-
-#bottomP5{
+#bottomP5 {
   left: 6%;
 }
 
-
 @media (min-width:1920px) and (min-height:1080px) {
-  #previsaoTitulo{
+  #previsaoTitulo {
     font-size: 250%;
   }
 
-  #timecode{
+  .temp {
+    font-size: 400%;
+  }
+
+  #timecode {
     font-size: 660%;
     top: 4%;
     left: 70%
   }
-  #marca{
+
+  #marca {
     top: 3%;
   }
-  #hoje{
+
+  #hoje {
     right: 50%;
     font-size: 450%;
   }
-  #maxima{
+
+  #maxima {
     right: 37%;
     font-size: 400%;
   }
-  #minima{
-  right: 38%;
-  font-size: 400%;
+
+  #maxima1 {
+    position: absolute;
+    right: 48%;
+    bottom: 52%;
   }
-  .divBottom1{
+
+  #minima1 {
+    position: absolute;
+    right: 49%;
+    bottom: 41%;
+  }
+
+  #minima {
+    right: 37%;
+    font-size: 400%;
+  }
+
+  #c {
+    position: absolute;
+    right: 33%;
+    top: 29%;
+  }
+
+  #d {
+    position: absolute;
+    right: 33%;
+    top: 40%;
+  }
+
+  .divBottom1 {
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 122.5px;
     padding-bottom: 122.5px
   }
-  .mainBottom1{
+
+  .mainBottom1 {
     font-size: 145%;
   }
-  .bottomP1{
-    left:18%;
+
+  .bottomP1 {
+    left: 18%;
   }
-  .bottomP2{
+
+  .bottomP2 {
     left: 43%;
     font-size: 140%;
   }
-  .bottomP3{
+
+  .bottomP3 {
     left: 15%;
   }
-  .bottomP4{
-  left: 17%;
+
+  .bottomP4 {
+    left: 17%;
   }
-  #bottomP5{
-  left: 12%;
+
+  #bottomP5 {
+    left: 12%;
   }
-  .bonus{
+
+  .bonus {
     left: 21% !important;
   }
 
-  .sol{
+  .sol {
     top: 7%;
     left: 34%;
     width: 100px;
